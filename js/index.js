@@ -34,7 +34,7 @@ button.addEventListener("click", async function () {
   error.innerHTML = "";
 
   try {
-    var url = `https://v6.exchangerate-api.com/v6/https://www.exchangerate-api.com/pair/${currencyFrom.value}/${currencyTo.value}/${amount.value}`;
+    var url = `https://v6.exchangerate-api.com/v6/b0a578ae060838ecc349ba3c/latest/USD`;
 
     var response = await fetch(url);
     var data = await response.json();
