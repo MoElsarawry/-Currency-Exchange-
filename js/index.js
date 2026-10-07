@@ -34,7 +34,7 @@ button.addEventListener("click", async function () {
   error.innerHTML = "";
 
   try {
-    var url = `https://v6.exchangerate-api.com/v6/YOUR-API-KEY/pair/${currencyFrom.value}/${currencyTo.value}/${amount.value}`;
+    var url = `https://v6.exchangerate-api.com/v6/https://www.exchangerate-api.com/pair/${currencyFrom.value}/${currencyTo.value}/${amount.value}`;
 
     var response = await fetch(url);
     var data = await response.json();
